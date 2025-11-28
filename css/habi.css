@@ -1,0 +1,88 @@
+.habilidades{
+    width: 100%;
+    padding: 20px 0;
+    min-height: 200px;
+    background-color: var(--bg-fundo);
+}
+.header-habilidades{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 200px;
+}
+.wraper-habilidade{
+    width: 40%;
+
+}
+.img-habilidades{
+    max-width: 200px;
+}
+.img-habilidades figure {
+    text-align: end;
+}
+.img-habilidades figure img{
+    width: 30px;
+}
+.habilidade-wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 100%;
+    min-height: 200px;
+}
+.habilidade-figure{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: var(--bg-violeta);
+}
+.habilidade-figure figure img{
+    width: 75px;
+}
+.habili-wraper{
+    text-align: center;
+    width: 15%;
+    min-width: 150px;
+    margin-top: 15px;
+}
+.texto-habil{
+    margin-top: 15px;
+}
+
+.button-habilidade{
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+
+}
+.button-habilidade button{
+        transition: transform 0.8s ease;
+}
+.button-habilidade button:hover{
+    transform: scale(1.02);
+    background-color: var(--bg-violeta-button);
+}
+.habilidade-butt{
+    padding: 10px;
+    width: 20%;
+    margin: 0 auto;
+    border: solid 1px black;
+    background-color: var(--bg-violeta);
+    border-radius: 20px;
+    min-width: 150px;
+
+}
+.habilidade-butt a{
+    text-decoration: none;
+    color: black;
+}

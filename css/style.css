@@ -1,0 +1,127 @@
+@import url(./main.css);
+@import url(./info.css);
+@import url(./habi.css);
+@import url(./group.css);
+@import url(./contato.css);
+@import url(./footer.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    --bg-violeta: #d896ff;
+    --bg-violeta-button: #e5befb;
+    --bg-fundo: #f8f8fa;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.container {
+    max-width: 1275px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.wraper-header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    min-height: 200px;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #f8f8fa;
+    align-items: center;
+}
+
+.header-logo {
+    margin-top: 15px;
+    display: flex;
+    width: 40%;
+    min-height: 100px;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.logo {
+    padding: 15px 0;
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+.title-intro {
+    margin-bottom: 5%;
+    font-size: 2em;
+    padding: 15px 5%;
+    width: 70%;
+
+}
+
+.button-intro {
+    width: 60%;
+    padding: 15px 1%;
+    border-radius: 25px;
+    text-align: center;
+    border: solid 1px black;
+    margin-left: 5%;
+    background-color: var(--bg-violeta);
+    transition: transform 0.8s ease;
+}
+
+.button-intro:hover {
+    transform: scale(1.02);
+    background-color: var(--bg-violeta-button);
+
+}
+
+.button-intro a {
+    font-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.img-baneer {
+    min-height: 300px;
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    background-image: url(../img/Imagem\ do\ WhatsApp\ de\ 2025-09-15\ à\(s\)\ 22.54.44_e7c62030.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 200px;
+}
+
+@media screen and (max-width: 850px) {
+    .header-logo {
+        width: 100%;
+        align-items: center;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .title-intro {
+        width: 70%;
+        text-align: center;
+    }
+
+    .button-intro {
+        width: 50%;
+    }
+
+    .img-baneer {
+        width: 80%;
+        margin-top: 50px;
+    }
+}
